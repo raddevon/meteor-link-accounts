@@ -3,9 +3,9 @@ var path = Npm.require('path');
 
 Package.describe({
   "summary": "Meteor external service link system",
-  "version": "1.2.9",
-  "git": "https://github.com/yubozhao/meteor-link-accounts",
-  "name": "bozhao:link-accounts",
+  "version": "1.3.0",
+  "git": "https://github.com/raddevon/meteor-link-accounts",
+  "name": "raddevon:link-accounts",
   "description": "Link social accounts for Meteor"
 });
 
