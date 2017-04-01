@@ -1,22 +1,22 @@
-#Meteor Link Accounts
-A Meteor package designed to links social network accounts without any hassles.
+# Meteor Link Accounts
+A Meteor package designed to links social network accounts without any hassles. This was forked from [yubozhao/meteor-link-accounts](https://github.com/yubozhao/meteor-link-accounts).
 
-##Next Steps
+## Next Steps
 * Look into work with Apollo (graphQL)
 * Look into merge into meteor/accounts.
 * Update to be more open and catch up to current state of Javascript
 
-##Goals
+## Goals
 * Link additional social network accounts.
 * Don't modify any Meteor core packages.
 * Don't force users to add additional Meteor packages that they are not going to
   use.
 
-##Usage
+## Usage
 * Call Meteor.linkWith[ServiceName] in place instead of loginWith.  (client side)
 * For unlink, Use Accounts.unlinkService(userId, serviceName).  (server side)
 
-##Design notes:
+## Design notes:
 1. Piggyback on existing Meteor oauth login system. Use login handler.
 
 2. We do not allow link different account from same service for now. For example, you
@@ -27,7 +27,8 @@ A Meteor package designed to links social network accounts without any hassles.
 
 4. Don't create a temporary user account and then merge it.
 
-##Support Accounts Package
+## Support Accounts Package
+
 accounts-meteor-developer, accounts-github accounts-facebook,
 btafel:accounts-facebook-cordova, accounts-google, accounts-twitter,
 accounts-meetup, accounts-weibo, bozhao:accounts-instagram,
